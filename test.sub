@@ -1,0 +1,12 @@
+executable              = test.sh
+
+Requirements = HAS_SINGULARITY == TRUE
++SingularityImage = "/cvmfs/singularity.opensciencegrid.org/grassla/osg_test"
+
+arguments               = 
+log                     = test.log
+output                  = output.txt
+error                   = errors.txt
+should_transfer_files   = Yes
+when_to_transfer_output = ON_EXIT
+queue 1
