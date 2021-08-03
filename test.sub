@@ -3,7 +3,6 @@ executable              = test.py
 Requirements = HAS_SINGULARITY == TRUE
 +SingularityImage = "/cvmfs/singularity.opensciencegrid.org/grassla/osg_testing"
 
-arguments               = 
 log                     = test.log
 output                  = output.txt
 error                   = errors.txt
