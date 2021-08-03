@@ -1,4 +1,4 @@
-executable              = test.sh
+executable              = test.py
 
 Requirements = HAS_SINGULARITY == TRUE
 +SingularityImage = "/cvmfs/singularity.opensciencegrid.org/grassla/osg_testing"
