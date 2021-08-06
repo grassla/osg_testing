@@ -1,7 +1,7 @@
 executable              = test.sh
 
 Requirements = HAS_SINGULARITY == TRUE
-+SingularityImage = "grassla/osg_testing:latest"
++SingularityImage = "/cvmfs/singularity.opensciencegrid.org/grassla/osg_testing:latest"
 
 log                     = test.log
 output                  = test.output
