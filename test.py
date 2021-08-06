@@ -1,6 +1,12 @@
 
-
+import os
 import random
+
+
+
+os.mkdir(test.output)
+os.mkdir(test.log)
+os.mkdir(test.error)
 
 m1 = 5.0
 m2 = 10.0
