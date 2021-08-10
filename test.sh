@@ -1,1 +1,1 @@
-python3 run test.py
+python3 test.py
