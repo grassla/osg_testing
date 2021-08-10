@@ -4,7 +4,7 @@ import random
 
 
 
-os.mkdir(test.output)
+os.mkdir(tet.output)
 os.mkdir(test.log)
 os.mkdir(test.error)
 
