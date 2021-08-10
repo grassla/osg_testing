@@ -5,7 +5,7 @@ Requirements = HAS_SINGULARITY == TRUE
 
 transfer_input_files    = test.py
 log                     = test.log
-output                  = test.output
+output                  = tet.output
 error                   = test.error
 should_transfer_files   = Yes
 when_to_transfer_output = ON_EXIT
