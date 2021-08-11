@@ -4,7 +4,7 @@ Requirements = HAS_SINGULARITY == TRUE
 +SingularityImage = "/cvmfs/singularity.opensciencegrid.org/grassla/osg_testing:latest"
 
 transfer_input_files    = test.py
-transfer_output_files   = test.output
+transfer_output_files   = /home/grassla/testing/osg_testing/test.output
 
 log                     = test.log
 output                  = test.output
